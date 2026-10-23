@@ -71,7 +71,7 @@ export default function App() {
                   />
                 ))}
               </div>
-            )} <B>dhfjdfj</B>
+            )}
 
             <YourStack stack={stack} onRemove={removeFromStack} onRemoveAll={removeAll} />
           </div>
