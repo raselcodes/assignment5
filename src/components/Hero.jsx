@@ -16,7 +16,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="flex justify-center lg:justify-end">
-        <img src="/hero.png" alt="Layered development stack illustration" className="w-full max-w-sm sm:max-w-md" />
+       <img src={`${import.meta.env.BASE_URL}hero.png`} alt="Layered development stack illustration" className="w-full max-w-sm sm:max-w-md" />
       </div>
     </section>
   );

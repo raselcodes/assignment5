@@ -15,7 +15,7 @@ export default function App() {
 
   // Load data from the JSON file (not hardcoded in the component)
   useEffect(() => {
-    fetch("/technologies.json")
+    fetch(`${import.meta.env.BASE_URL}technologies.json`)
       .then((res) => res.json())
       .then((data) => setTechnologies(data))
       .catch(() => toast.error("Could not load technologies."))
