@@ -7,8 +7,8 @@ export default function Hero() {
           <span className="text-brand">Development Stack</span>
         </h1>
         <p className="mt-6 max-w-xl text-lg leading-relaxed text-slate-600">
-          Explore frontend, backend, database, and tooling options, compare them side by
-          side, and put together the stack that fits your next project.
+          Discover the best frontend, backend, database, and DevOps tools. Compare ratings
+and difficulty, then pick the technologies that fit your next project.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
           <a href="#technologies" className="btn border-0 bg-brand shadow-none">Explore Technologies</a>
